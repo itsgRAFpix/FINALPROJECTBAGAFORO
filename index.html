@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gRAF.pix Homepage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+            background: transparent !important;
+        }
+
+        .navbar a {
+            color: white !important;
+            font-weight: 500;
+            margin: 0 12px;
+        }
+
+        .navbar-toggler {
+            background: rgba(255,255,255,0.8);
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        section.main-content {
+            margin-top: 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="asset/img/MIDTERM_BAGAFORO.png" alt="gRAF.pix Logo" height="100">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarBasic">
+                <ul class="navbar-nav mx-auto mb-2 mb-xl-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="asset/img/be6edea3-c187-4020-bb38-67dc7e2181a1.jpg" alt="Graphic sample from gRAF.pix portfolio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- INTRODUCTION -->
+<section id="intro" class="container py-5 main-content text-center">
+    <h1 class="fw-bold mb-4 display-5">Welcome to gRAF.pix</h1>
+    <p class="lead mb-3">
+        This website showcases all of Grafix's creations. Everything you see here is my own work. If you ever want to get in touch, feel free to reach out with questions, commissions, or just to say hi. I’d love to hear from you!
+    </p>
+    <p class="mb-0">
+        Interested in a commission, have questions, or just want to say hi? <a href="#contact" class="text-decoration-underline">Feel free to reach out</a>—I’d love to connect with you!
+    </p>
+</section>
+
+
+
+
+   <!-- GALLERY SECTION -->
+<section id="gallery" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">gRAFix Works</h2>
+
+        <div class="row g-4">
+            <!-- Artwork 1 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/rabbit.jpg" class="card-img-top" alt="Artwork 1">
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/wheelz.jpg" class="card-img-top" alt="Artwork 2">
+                </div>
+            </div>
+
+            <!-- Artwork 3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/front cover 1.jpg" class="card-img-top" alt="Artwork 3">
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/RAF FAVE CELEB.jpg" class="card-img-top" alt="Artwork 4">
+                </div>
+            </div>
+
+             <!-- Artwork 5 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/BURGERMENU.jpg" class="card-img-top" alt="Artwork 5">
+                </div>
+            </div>
+
+            <!-- Artwork 6-->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/shirttoy (1).jpg" class="card-img-top" alt="Artwork 6">
+                </div>
+            </div>
+
+            <!-- Artwork 7 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/pokemonn newjeans.png"card-img-top" alt="Artwork 7">
+                </div>
+            </div>
+
+            <!-- Artwork 8 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card shadow-sm">
+                    <img src="asset/img/henlo last.jpg" class="card-img-top" alt="Artwork 8">
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services" class="container py-5">
+    <h2 class="fw-bold mb-4 text-center">Services</h2>
+
+    <div class="services-list text-center">
+        <div class="service-item card mb-3 p-3 shadow-sm">
+            <h5 class="mb-2">Graphic Design</h5>
+            <p class="price mb-0">₱500</p>
+        </div>
+        <div class="service-item card mb-3 p-3 shadow-sm">
+            <h5 class="mb-2">Branding & Logo Design</h5>
+            <p class="price mb-0">₱800</p>
+        </div>
+        <div class="service-item card mb-3 p-3 shadow-sm">
+            <h5 class="mb-2">Poster & Layout Design</h5>
+            <p class="price mb-0">₱1,000</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container py-5 text-center">
+    <h2 class="fw-bold mb-3">Contact</h2>
+    <p>Follow me on IG: <a href="https://www.instagram.com/callme_grafpix" target="_blank">@callme_grafpix</a></p>
+</section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-light text-center py-4 border-top">
+        <small>© 2025 gRAF.pix • All Rights Reserved</small>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
